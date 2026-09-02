@@ -1,7 +1,18 @@
 
 .fladry-intro h1 {
-    margin-top: 20px;
-} 
+    position: absolute;
+    top: 25%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    margin: 0;
+
+    color: white;
+    font-size: 3rem;
+
+    text-shadow: 2px 2px 5px black;
+}
 
 body {
     font-family: Arial, sans-serif;
@@ -67,6 +78,23 @@ p {
     display: block;
 }
 
+.loss-figure {
+    width: 100%;
+    margin: 15px auto;
+    text-align: center;
+}
+
+.loss-figure img {
+    width: 100%;
+    max-width: 310px;
+    height: auto;
+
+    display: block;
+    margin: 0 auto;
+}
+
+
+
 .listen-button {
     display: block;
     margin: 15px auto 30px auto;
@@ -79,10 +107,16 @@ p {
     font-size: 1.2rem;
     cursor: pointer;
 }
-.fladry-intro {
-    position: relative;
-    width: 100%;
-    margin-bottom: 20px;
+
+.listen-marker {
+    padding: 0;
+    background: none;
+    border: none;
+
+    font-size: 1.3rem;
+    line-height: 1;
+
+    cursor: pointer;
 }
 
 .fladry-hero-image {
@@ -92,19 +126,6 @@ p {
     border-radius: 15px;
 }
 
-.fladry-intro h1 {
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-    margin: 0;
-
-    font-size: 3rem;
-    color: white;
-
-    text-shadow: 2px 2px 6px black;
-}
 
 .fladry-definition {
     position: relative;
