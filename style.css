@@ -31,13 +31,13 @@
 
     left: 8%;
     right: 8%;
-    bottom: -120px;
+    bottom: -160px;
 
     background-color: white;
 
     border-radius: 20px;
 
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.25);
+    box-shadow: 0 10px 18px rgba(0, 0, 0, 0.25);
 
     padding: 15px;
 
@@ -54,50 +54,45 @@
     flex: 1;
 }
 
-
 .effectiveness-title {
-    display: grid;
-    grid-template-columns: auto 1fr;
+    display: flex;
+    flex-direction: column;
     align-items: center;
 
     margin-bottom: 5px;
 }
 
-.effectiveness-title .listen-marker {
-    grid-column: 1;
-    grid-row: 1 / span 2;
-    margin-right: 8px;
-}
-
 .loss-rating {
-    grid-column: 2;
-    width: 150px;
+    width: 250px;
     height: auto;
-    margin: 0 auto;
 }
 
-.effectiveness-title span {
-    grid-column: 2;
-    text-align: center;
+.effectiveness-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
-    font-size: 1rem;
+.effectiveness-label span {
+    font-size: 1.3rem;
     font-weight: bold;
 }
 
 .listen-marker {
-    flex-shrink: 0;
-
-    padding: 0px;
+    padding: 0;
     margin-right: 8px;
 
     background: none;
     border: none;
 
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     line-height: 1;
 
     cursor: pointer;
 }
+
+
+
 
 
 .effectiveness-grid {
@@ -127,7 +122,7 @@
 
 
 .effectiveness-item img {
-    width: 90px;
+    width: 120px;
     height: 70px;
 
     object-fit: contain;
