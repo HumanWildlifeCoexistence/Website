@@ -56,25 +56,33 @@
 
 
 .effectiveness-title {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: auto 1fr;
     align-items: center;
-    justify-content: center;
-
-    gap: 3px;
 
     margin-bottom: 5px;
-
-    font-size: 1.0 rem;
-    font-weight: bold;
 }
 
+.effectiveness-title .listen-marker {
+    grid-column: 1;
+    grid-row: 1 / span 2;
+    margin-right: 8px;
+}
 
 .loss-rating {
-    width: 250px;
+    grid-column: 2;
+    width: 150px;
     height: auto;
+    margin: 0 auto;
 }
 
+.effectiveness-title span {
+    grid-column: 2;
+    text-align: center;
+
+    font-size: 1rem;
+    font-weight: bold;
+}
 
 .listen-marker {
     flex-shrink: 0;
