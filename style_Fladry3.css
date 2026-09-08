@@ -30,7 +30,7 @@
 .fladry-intro {
     position: relative;
     width: 100%;
-    margin-bottom: 40px;
+    margin-bottom: 10px;
 }
 
 .fladry-hero-image {
@@ -242,8 +242,8 @@ p {
     position: relative;
     width: 100%;
     min-height: 600px;
-    overflow: hidden;
-    margin-bottom: 40px;
+    overflow: visible;
+    margin-bottom: 120px;
 }
 .definition-background {
     position: absolute;
@@ -263,14 +263,21 @@ p {
     justify-content: flex-end;
 
     padding: 20px;
+    padding-bottom: 00px;
     box-sizing: border-box;
 }
 .floating-text {
-    background-color: rgba(255, 255, 255, 0.82);
+    position: relative;
+
+    background-color: rgba(255, 255, 255, 0.90);
+
     padding: 20px;
+
     border-radius: 20px;
 
     margin-top: 20px;
+
+    transform: translateY(50%);
 }
 
 .tool-summary {
