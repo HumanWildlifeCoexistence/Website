@@ -1,104 +1,63 @@
 
-.fladry-title-row h1 {
-    margin: 0;
-    font-size: 3rem;
-    font-weight: bold;
-    text-align: left;
-}
-
 .fladry-title-row {
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-between;
-
-    margin-bottom: 10px;
-
+    margin-top: 20px;
+    margin-bottom: 15px;
     text-align: left;
+}
+
+.fladry-title-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .fladry-title-row h1 {
-    margin: 0;
-    font-size: 3rem;
+    margin: 0 0 5px 0;
+    font-size: 3.5rem;
     font-weight: bold;
-
     text-align: left;
 }
-
-.fladry-info {
-    text-align: left;
-}
-.fladry-intro {
-    position: relative;
-    width: 100%;
-    margin-bottom: 10px;
-}
-
-.fladry-hero-image {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 15px;
-}
-
-.fladry-info {
-    position: relative;
-
-    background-color: #f3F7F8;
-
-    margin-top: -35px;
-    margin-left: 0%;
-    margin-right: 0%;
-
-    padding: 20px 10px 20px 10px;
-
-    border-radius: 25px 25px 0 0;
-
-    z-index: 2;
-
-    text-align: left;
-}
-
-.fladry-title-row h1 {
-    margin: 0;
-
-    font-size: 3rem;
-    font-weight: bold;
-
-    text-align: left;
-}
-
-.listen-marker {
-    padding: 0;
-
-    background: none;
-    border: none;
-
-    font-size: 2rem;
-    line-height: 1;
-
-    cursor: pointer;
-}
-
-
 
 .loss-rating {
-    width: 40%;
+    width: 90%;
     max-width: 180px;
     height: auto;
-
     display: block;
+    margin: 0;
+}
 
-    margin: 5px 0 10px 0;
+.duration-rating {
+    width: 32%;
+    max-width: 150px;
+    height: auto;
+    display: block;
+    margin: 0;
 }
 
 .effectiveness-label {
-    text-align: left;
-
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+    text-align: center;
+   margin-top: 35px;
     margin-bottom: 5px;
 }
 
+
+.listen-marker {
+    padding: 0;
+    background: none;
+    border: none;
+    font-size: 1.7rem;
+    line-height: 1;
+    cursor: pointer;
+}
 .effectiveness-label span {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-weight: bold;
 }
 
@@ -235,6 +194,22 @@ p {
     height: auto;
     display: block;
     border-radius: 15px;
+}
+
+.fladry-info {
+    position: relative;
+    background-color: #f3F7F8;
+
+    margin-top: -35px;
+    margin-left: 0%;
+    margin-right: 0%;
+
+    padding: 20px 20px 25px 20px;
+
+    border-radius: 25px 25px 0 0;
+
+    z-index: 2;
+    text-align: left;
 }
 
 
