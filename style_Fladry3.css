@@ -321,3 +321,21 @@ p {
     width: 100%;
     box-sizing: border-box;
 }
+.comparison-section {
+    width: 100%;
+    margin: 30px auto;
+}
+
+.comparison-image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.comparison-text {
+    background-color: rgba(255, 255, 255, 0.90);
+    padding: 20px;
+    border-radius: 20px;
+    margin: 10px 20px 0 20px;
+    box-sizing: border-box;
+}
